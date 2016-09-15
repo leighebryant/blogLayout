@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#hero{
+  background: url('https://scontent.xx.fbcdn.net/t31.0-8/11021355_898653110155763_923150969851337795_o.jpg');
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-position: 40%;
+}
+.header{
+  font-family: sans-serif;
+  font-size: 31px;
+  color: grey;
+}
+.byline{
+  font-style: italic;
+}
+ul{
+  float: right;
+  position: relative;
+  top: 40px;
+  right:350px;
+  width:500px;
+  list-style: none;
+}
+li{
+  padding: 20px;
+}
