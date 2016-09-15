@@ -13,20 +13,38 @@ body{
 }
 .header{
   font-family: sans-serif;
-  font-size: 31px;
-  color: grey;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 150%;
+  width: 570px
 }
 .byline{
   font-style: italic;
+  color:grey;
 }
 ul{
   float: right;
   position: relative;
-  top: 40px;
-  right:350px;
+  top: 30px;
+  right:370px;
   width:500px;
   list-style: none;
 }
 li{
-  padding: 20px;
+  padding: 12px;
+}
+ol{
+  float:left;
+  position: relative;
+  top:30px;
+  left:150px;
+  list-style: none;
+  width: 200px;
+}
+.TIY{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.Updates{
+  color:grey;
 }
