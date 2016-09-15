@@ -40,11 +40,50 @@ ol{
   left:150px;
   list-style: none;
   width: 200px;
+  border-bottom: 1px solid lightgrey;
 }
 .TIY{
   font-family: sans-serif;
   font-weight: bold;
 }
 .Updates{
+  color:lightgrey;
+  line-height: 140%;
+
+}
+div{
+  float:left;
+  left:-20px;
+  position: relative;
+  top:130px;
+  width: 150px;
+}
+.container-1 input#search{
+  width: 150px;
+  height: 25px;
+  border: 1px solid lightgrey;
+  float: left;
+  left:200px;
+  color: lightgrey;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 3px;
+  padding-left: 5px;
+
+}
+.logo{
+  position: fixed;;
+  float: left;
+  left:200px;
+  top:250px;
+  border-radius: 125px;
+  border: solid white 5px;
+  width: 80px;
+  height: 80px;
+}
+label{
+  font-family: sans-serif;
+  font weight:bold;
   color:grey;
+bottom:30px;
 }
